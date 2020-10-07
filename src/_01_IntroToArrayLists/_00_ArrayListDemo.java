@@ -18,6 +18,7 @@ public class _00_ArrayListDemo {
 		for(int i = 0; i < names.size(); i++){
 			String s = names.get(i);
 			System.out.println("String at element " + i + " " + s);
+			System.out.println(names.size());
 		}
 		System.out.println("\n");
 		
